@@ -27,6 +27,12 @@
     text-align: left;
     padding: 8px;
   }
+
+  td>a{
+    margin: 0rem 0.5rem;
+    color: black;
+    font-size: 1rem;
+  }
   
   tr:nth-child(even) {
     background-color: #dddddd4b;
