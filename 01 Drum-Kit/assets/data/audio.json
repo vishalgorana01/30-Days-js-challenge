@@ -1,0 +1,38 @@
+[
+    {
+      "keyCode": 65,
+      "src": "./assets/sounds/s1.wav"
+    },
+    {
+      "keyCode": 83,
+      "src": "./assets/sounds/s2.wav"
+    },
+    {
+      "keyCode": 68,
+      "src": "./assets/sounds/s3.wav"
+    },
+    {
+      "keyCode": 70,
+      "src": "./assets/sounds/s4.wav"
+    },
+    {
+      "keyCode": 71,
+      "src": "./assets/sounds/s5.wav"
+    },
+    {
+      "keyCode": 72,
+      "src": "./assets/sounds/s6.wav"
+    },
+    {
+      "keyCode": 74,
+      "src": "./assets/sounds/s7.wav"
+    },
+    {
+      "keyCode": 75,
+      "src": "./assets/sounds/s8.wav"
+    },
+    {
+      "keyCode": 76,
+      "src": "./assets/sounds/s9.wav"
+    }
+  ]

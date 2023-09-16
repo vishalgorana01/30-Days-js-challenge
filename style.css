@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    background: linear-gradient(0.5turn, #81bf48, #06be73);
+    background-size: cover;
+    text-align: center;
+    min-height: 100vh;
+    padding: 5rem 1rem;
+  }
+  .header {
+    color: #f2f2f2d9;
+    font-size: 3rem;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 5rem auto;
+  }
+  
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd4b;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .header {
+      font-size: 2rem;
+    }
+  }
