@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    background: url('https://img.freepik.com/free-vector/realistic-glassmorphism-background_52683-87286.jpg?w=1060&t=st=1694984915~exp=1694985515~hmac=fc6c0bf9d3d156282ac54a893761f347178bbc819aa24ca1e8b332e00895c18e');
+    background-size: cover;
+    font-family: 'helvetica neue';
+    text-align: center;
+    font-size: 10px;
+    background-color: rgb(204, 204, 191);
+    background-blend-mode: darken;
+}
+
+body {
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32rem;
+    height: 32rem;
+    /* border: 20px solid white; */
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+    /* box-shadow:
+        0 0 0 4px rgba(0, 0, 0, 0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0, 0, 0, 0.2); */
+}
+
+.clock-face {
+    position: relative;
+    width: 65%;
+    height: 65%;
+    /* transform: translateY(-3px); */
+    /* account for the height of the clock hands */
+}
+
+.clock_png{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.hand {
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand{
+    height: 5px;
+    width: 30%;
+}
+.minute-hand{
+    height: 3px;
+    width: 45%;
+}
+.second-hand{
+    height: 1.5px;
+    width: 50%;
+}
